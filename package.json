@@ -1,0 +1,27 @@
+{
+	"name": "evalite-demo",
+	"version": "1.0.0",
+	"description": "a demo for evalite with openai",
+	"scripts": {
+		"eval:dev": "evalite watch",
+		"start": "node index.js",
+		"build": "tsc",
+		"test": "vitest",
+		"lint": "eslint . --ext .js,.ts",
+		"format": "prettier --write ."
+	},
+	"keywords": [],
+	"author": "davidfeld@hilma.tech",
+	"license": "MIT",
+	"devDependencies": {
+		"@ai-sdk/openai": "^1.0.11",
+		"ai": "^4.0.22",
+		"autoevals": "^0.0.111",
+		"dotenv": "^16.4.7",
+		"eslint": "^8.50.0",
+		"evalite": "^0.8.0",
+		"prettier": "^3.4.2",
+		"typescript": "^5.3.0",
+		"vitest": "^2.1.8"
+	}
+}
